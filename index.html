@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Лабораторная служба Хеликс</title>
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap" rel="stylesheet">
+		<script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"></script>
+		<script type="text/javascript">
+		    var map;
+
+		    DG.then(function () {
+		        map = DG.map('map', {
+		            center: [76.94, 43.23],
+		            zoom: 13
+		        });
+
+		        DG.marker([76.94, 43.23]).addTo(map);
+		    });
+		</script>
+	</head>
+	<body>
+		<div class="body-shadow">
+			<header class="main-header">
+				<nav class="navigation">
+					<div class="navigation-wrapper">
+						<ul class="page-navigation">
+							<li class="main-logo">
+								<a>
+									<img src="img/main-logo.svg" width="137" height="44" alt="Логотип Helix">
+								</a>
+							</li>
+							<li class="navigation-link">
+								<a href="">Акции</a>
+							</li>
+							<li class="navigation-link">
+								<a href="">Прием врачей</a>
+							</li>
+							<li class="navigation-link">
+								<a href="">Программа лояльности</a>
+							</li>
+							<li class="navigation-link">
+								<a href="">О лаборатории</a>
+							</li>
+							<li class="navigation-link">
+								<a href="">Контакты</a>
+							</li>
+						</ul>
+						<ul class="callback-nav">
+							<li class="phone-number">+7 (771) 232 45 04</li>
+							<li class="callback-request">
+								<button class="btn-callback" type="button">Закажите обратный звонок</button>
+							</li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<main class="content">
+				<div class="main-screen-wrapper">
+					<div class="main-img">
+					<section class="main-screen">
+						<h1>Лабораторная<br>служба Хеликс<br>в Алматы</h1>
+						<div class="features-slider">
+							<div class="features-slider-wrapper">
+								<ul class="features-list">
+									<li class="feature-item item1">Результаты анализов<br>от 1 дня</li>
+									<li class="feature-item item2">SMS-уведомление о готовности</li>
+									<li class="feature-item item3">Результаты в Личном кабинете, по e-mail, по телефону</li>
+									<li class="feature-item item4">Без записи и очередей</li>
+								</ul>
+							</div>
+						</div>
+						<button class="modal-button" type="button">Оформить предзаказ</button>
+						<div class="social-media-wrapper">
+							<ul class="social-media">
+								<li>
+									<a class="social-btn" href="https://www.instagram.com/helix.almaty/" target="_blank"><span class="visually-hidden">Instagram</span>
+										<img src="img/icon-ig.svg" width="40" height="40" alt="Instagram"> 
+									</a>
+								</li>
+								<li>
+									<a class="social-btn" href="#"><span class="visually-hidden">VK</span>
+										<img src="img/icon-vk.svg" width="40" height="40" alt="VK">
+									</a>
+								</li>
+								<li>
+									<a class="social-btn" href="#"><span class="visually-hidden">Telegram</span>
+										<img src="img/icon-tg.svg" width="40" height="40" alt="Telegram">
+									</a>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="promo">
+						<h2 class="visually-hidden">Акции</h2>
+						<div class="promo-shadow">
+							<div class="promo-rotator">
+								<div class="rotator-wrapper">
+									<article class="promo-block promo1">
+										<div class="card-wrapper">
+											<h3>Бесплатный выезд Мобильной службы</h3>
+											<p><span class="promo-date">До 31 мая</span></p>
+											<p class="promo-text">Сдавайте анализы там, где вам удобно: <br>дома, в офисе или на даче</p>
+											<button class="modal-button" type="button">Оформить предзаказ</button>
+										</div>
+										<div class="promo-image"></div>
+									</article>
+									<article class="promo-block promo2">
+										<div class="card-wrapper">
+											<h3>Бесплатный выезд Мобильной службы</h3>
+											<p><span class="promo-date">До 31 мая</span></p>
+											<p class="promo-text">Сдавайте анализы там, где вам удобно: <br>дома, в офисе или на даче</p>
+											<button class="modal-button" type="button">Оформить предзаказ</button>
+										</div>
+										<div class="promo-image"></div>
+									</article>
+								</div>
+								<a class="slider-control previous" href="#" role="button">
+										<svg width="53" height="15" viewBox="0 0 53 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="2" y="6" width="51" height="2" fill="#C4C4C4"/>
+										<rect x="7.07111" width="2" height="10" transform="rotate(45 7.07111 0)" fill="#C4C4C4"/>
+										<rect x="8.48529" y="12.7279" width="2" height="10" transform="rotate(135 8.48529 12.7279)" fill="#C4C4C4"/></svg>
+									<span class="visually-hidden">Назад</span>
+								</a>
+								<a class="slider-control next visible" href="#" role="button">
+										<svg width="53" height="15" viewBox="0 0 53 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect x="51" y="8.14209" width="51" height="2" transform="rotate(180 51 8.14209)" fill="#C4C4C4"/>
+										<rect x="45.929" y="14.1421" width="2" height="10" transform="rotate(-135 45.929 14.1421)" fill="#C4C4C4"/>
+										<rect x="44.5148" y="1.41418" width="2" height="10" transform="rotate(-45 44.5148 1.41418)" fill="#C4C4C4"/></svg>
+									<span class="visually-hidden">Вперед</span>
+								</a>
+							</div>
+						</div>							
+					</section>
+					</div>
+					<section class="doctors">
+						<div class="green-block"></div>
+						<div class="doctors-img"></div>
+						<div class="about-service">
+							<h2 class="section-headline">Прием врачей</h2>
+							<p>В Диагностических центрах Хеликс вы можете записаться на прием к врачу. Наши специалисты помогут разобраться в ситуациях, требующих врачебного вмешательства, назначат необходимые исследования и составят план лечения после постановки диагноза.</p>
+						</div>
+						<div class="doctor-list-wrapper">
+							<ul class="doctor-list">
+								<li>
+									<h3 class="center-name">ДЦ Самал</h3>
+									<ul class="center-doctors">
+									 <li class="doctor-item">Гинеколог</li>
+									 <li class="doctor-item">Невролог</li>
+									 <li class="doctor-item">УЗИ</li>
+									 <li class="doctor-item last">ЭКГ</li>
+									</ul>
+								</li>
+								<li>
+									<h3 class="center-name">ДЦ Бостандыкский</h3>
+									<ul class="center-doctors">
+									 <li class="doctor-item">Эндокринолог</li>
+									 <li class="doctor-item last">Терапевт</li>
+									</ul>
+								</li>
+								<li>
+									<h3 class="center-name">ДЦ на проспекте Абая</h3>
+									<ul class="center-doctors">
+									 <li class="doctor-item last">Педиатр</li>
+									</ul>
+								</li>
+							</ul>
+						</div>
+					</section>
+					<section class="loyalty">
+						<h2 class="visually-hidden">Программа лояльности</h2>
+						<p><span class="loyalty-intro">В Центрах Лабораторной службы Хеликс <br>действует Программа лояльности</span></p>
+						<p><span class="loyalty-name">«Просто здорово!»</span></p>
+						<ul class="loyalty-features">
+							<li>250 приветственных баллов <br>при регистрации в Программе лояльности</li>
+							<li>До 10% от стоимости выполненных <br>анализов копятся на Карте в виде баллов</li>
+							<li>Оплачивайте баллами до 100% стоимости<br>медицинских анализов</li>
+							<li>Передавайте Карту близким, друзьям <br>и знакомым</li>
+							<li>Профиль клиента на Карте экономит <br>время оформления заказа в Центре</li>
+							<li>Привязка к Карте неограниченного <br>количества профилей клиентов</li>
+						</ul>
+					</section>
+					<section class="about-helix">
+						<h2 class="visually-hidden">О лаборатории</h2>
+						<p>Одна из лучших лабораторий России<br><span class="green">теперь и в Алматы</span></p>
+						<ul class="helix-features">
+							<div class="first">
+								<li>Включена в список лучших лабораторий мира</li>
+								<li>Более 2000 видов медицинских анализов</li>
+								<li>Контакт-центр работает круглосуточно: 7 дней  в&nbsp;неделю, 365 дней в&nbsp;году</li>
+							</div>
+							<div class="second">
+								<li>3 лабораторных комплекса:  в&nbsp;Санкт-Петербурге, Москве  и&nbsp;Екатеринбурге</li>
+								<li>Самое современное оборудование от&nbsp;ведущих мировых производителей (Roche Diagnostics, Sysmex, Siemens)</li>
+								<li>Внешняя оценка качества исследований по&nbsp;системам ФСВОК (Россия), EQAS (Bio-Rad, США), RIQAS (Randox, Великобритания)</li>
+							</div>
+						</ul>
+						<a class="to-helix" href="https://helix.ru/">Узнать больше о Хеликс</a>
+					</section>
+					<section class="contacts">
+						 <h2 class="section-headline">Где мы находимся</h2>
+						 <div class="contact-block">
+						 	<ul>
+						 		<li class="center-card">
+							 		<h3>ДЦ на проспекте Абая</h3>
+							 		<ul class="card-info">
+							 			<li>
+								 			<h4 class="visually-hidden">Адрес</h4>
+								 			<p class="address">пр. Абая, д. 109а, 1 этаж</p>
+								 		</li>
+								 		<li>
+									 		<h4>Режим работы:</h4>
+										 	<table class="schedule">
+												<tr>
+													<td class="day">пн - пт</td>
+													<td class="time">07:30 - 15:30</td>
+												</tr>
+												<tr>
+													<td class="day">сб</td>
+													<td class="time">07:30 - 13:00</td>
+												</tr>
+												<tr>
+													<td class="day">вс</td>
+													<td class="time">выходной</td>
+												</tr>
+											</table>
+										</li>
+									</ul>
+								</li>
+								<li class="center-card">
+							 		<h3>ДЦ Бостандыкский</h3>
+							 		<ul class="card-info">
+							 			<li>
+								 			<h4 class="visually-hidden">Адрес</h4>
+								 			<p class="address">мкр. Орбита-2, д. 32</p>
+								 		</li>
+								 		<li>
+									 		<h4>Режим работы:</h4>
+										 	<table class="schedule">
+												<tr>
+													<td class="day">пн - пт</td>
+													<td class="time">07:30 - 15:30</td>
+												</tr>
+												<tr>
+													<td class="day">сб</td>
+													<td class="time">07:30 - 13:00</td>
+												</tr>
+												<tr>
+													<td class="day">вс</td>
+													<td class="time">выходной</td>
+												</tr>
+											</table>
+										</li>
+									</ul>
+								</li>
+								<li class="center-card">
+							 		<h3>ДЦ Самал</h3>
+							 		<ul class="card-info">
+							 			<li>
+								 			<h4 class="visually-hidden">Адрес</h4>
+								 			<p class="address">мкр. Самал-2, д. 79</p>
+								 		</li>
+								 		<li>
+									 		<h4>Режим работы:</h4>
+										 	<table class="schedule">
+												<tr>
+													<td class="day">пн - вс</td>
+													<td class="time">07:30 - 19:00</td>
+												</tr>
+											</table>
+										</li>
+									</ul>
+								</li>
+						 	</ul>
+						 	<div class="map"></div>
+						 </div>
+					</section>
+				</div>
+			</main>
+			<footer class="main-footer">
+				<div class="add-logo">
+					<a>
+						<img src="img/white-logo.svg" width="357" height="46" alt="Логотип Helix">
+					</a>
+				</div>
+				<div class="footer-callback">
+					<ul class="callback-nav">
+							<li class="phone-number">+7 (771) 232 45 04</li>
+							<li class="callback-request">
+								<button class="btn-callback" type="button">Закажите обратный звонок</button>
+							</li>
+					</ul>
+				</div>
+			</footer>
+		</div>
+	<script src="js/promo.js"></script>
+	</body>
+</html>
+
+
